@@ -1,4 +1,3 @@
-import 'dart:_js_helper';
 
 void main(){
   List <String> nomes = ["luiz", "joao", "maria"];
