@@ -4,11 +4,12 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "Dart",
             "type": "dart",
             "request": "launch",
-            "program": "20 - switch.dart"
+            "program": "D:/Windows Sistema/Documentos/curso-de-flutter/seção 04 - dart básico/23 - for loop/for loop.dart"
         },
     ]
 }
