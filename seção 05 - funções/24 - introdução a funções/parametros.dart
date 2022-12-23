@@ -1,5 +1,6 @@
 void main(){
-  nome('pedro', 10);
+  // aqui todos os parametros passados na função devem ser especificados
+  nome('pedro', 45);
   nome('luiz', 35);
 
 }
