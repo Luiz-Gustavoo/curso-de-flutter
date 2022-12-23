@@ -4,30 +4,13 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "name": "Dart",
-            "type": "dart",
-            "request": "launch",
-            "program": "bin/main.dart"
-        },
-        {
-            "name": "Dart",
-            "type": "dart",
-            "request": "launch",
-            "program": "bin/main.dart"
-        },
-        {
-            "name": "Flutter: Run all Tests",
-            "type": "dart",
-            "request": "launch",
-            "program": "./test/"
-        },
         
+    
         {
             "name": "Dart",
             "type": "dart",
             "request": "launch",
-            "program": "D:/Windows Sistema/Documentos/curso-de-flutter/seção 05 - funções/24 - introdução a funções/parametros.dart"
+            "program": "D:/Windows Sistema/Documentos/curso-de-flutter/seção 05 - funções/parametros_2.dart"
         },
     ]
 }
