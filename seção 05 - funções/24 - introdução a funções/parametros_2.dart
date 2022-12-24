@@ -1,5 +1,5 @@
 void main(){
-  // parametros opcionais posicionais: dvem ser passados em ordem
+  // parametros opcionais posicionais: devem ser passados em ordem
   nome('pedro', 1.79, 20); // aqui altura e idade são especificados
   nome('luiz');  // aqui altura e idade são padrões
 

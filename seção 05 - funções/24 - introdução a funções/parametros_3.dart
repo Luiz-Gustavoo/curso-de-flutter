@@ -1,5 +1,5 @@
 void main() {
-  // parametros posicionais nomeados: nao importa a ordem quando são passados os valores
+  // parametros posicionais nomeados(dentro de { chaves}): nao importa a ordem quando são passados os valores
 saudacao( 'tchau'); // aqui nome é padrão
 saudacao(nome:'carlos','adeus'); // aqui nome foi especificado
 
