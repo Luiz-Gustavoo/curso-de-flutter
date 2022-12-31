@@ -7,17 +7,23 @@ void main() {
 void funcao_principal ({required Function negativo_anonima,
                        required Function positivo_anonima
 }) {
-
+  negativo_anonima('luiz', -100);
+  positivo_anonima('pedro', 10000);
 }
 
-void saldo_negativo (String nome,
-                    String status,
-                    int saldo) {
+ saldo_negativo (String nome, 
+                  int saldo,
+                    {String status = 'negativo'}) {
 print('nome: $nome');
 print('status da conta: $status');
 print('saldo: $saldo');                      
 }
 
-void saldo_positivo () {
+void saldo_positivo (String nome,
+                    int saldo,
+                     {String status = 'positivo'}) {
+print('nome: $nome');
+print('status da conta: $status');
+print('saldo: $saldo');
 
 }
