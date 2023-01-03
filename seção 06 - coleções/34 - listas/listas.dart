@@ -5,7 +5,7 @@ void main() {
     'gustavo'];
   print(nomes);
 
-  List <String> mercado = [
+  List <String> mercado = [ // especificar o tipo de dados na lista
     'pão',
     'ovo', 
     'macarrão'];
