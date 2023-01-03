@@ -1,6 +1,9 @@
 
 void main(){
-  List <String> nomes = ["luiz", "joao", "maria"];
+  List <String> nomes = [
+    "luiz",
+    "joao",
+    "maria"];
 
   // add
   nomes.add("augusto");
@@ -20,5 +23,19 @@ void main(){
  List <String> mais_nomes = ["carlos", "julia", "gustavo"];
  nomes.addAll(mais_nomes);
  print(nomes);
+
+ // insert: adiciona no indice especifico o valor especifico
+
+ nomes.insert(0, 'primeiro item da lista');
+ print(nomes);
+
+ // shuffle: embaralhar
+ nomes.shuffle();
+ print(nomes);
+
+ // clear
+ nomes.clear();
+ print(nomes);
+
 }
 
