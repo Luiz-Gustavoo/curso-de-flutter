@@ -11,17 +11,20 @@ List <int> valor_itens_compras = [
   8
 ];
 
-for(String itens in compras){
-  print(itens);
-  for(int valor in valor_itens_compras){
-  print(valor);
-      
-  }
-    
+item_e_preco(compras[0], valor_itens_compras[0]);
+item_e_preco(compras[1], valor_itens_compras[1]);
+item_e_preco(compras[2], valor_itens_compras[2]);
+
+
+
 
 
 }
+void item_e_preco(String item, int preco) {
+  print('$item: $preco reais');
+
 }
+
 
 
 
