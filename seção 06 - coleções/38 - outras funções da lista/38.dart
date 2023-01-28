@@ -23,6 +23,7 @@ void main() {
   // mudando elementos de uma lista e os adicionando a nova lista
 
   Iterable<int> nova_lista = numeros.map((n) => n + 2);
+  print(nova_lista);
 
   print(numeros.map((n) {
     return n + 2;
