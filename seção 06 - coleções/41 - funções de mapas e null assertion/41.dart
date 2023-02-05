@@ -32,5 +32,6 @@ print(cpf_cliente);
 
 // null assertion
 
+print('teste');
 
 }
